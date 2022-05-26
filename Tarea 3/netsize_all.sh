@@ -1,15 +1,7 @@
 #! /bin/bash 
-echo "Melissa Punguil"
-
-echo "Número de filas"
-for f in  ../Saavedra2013/*.txt; 
-do
-	cat $f | wc -l; 
-
-done 
-
-echo "Número de columnas"
-for f in ../Saavedra2013/*txt;
+echo "Escriba un script que imprima los números de las filas y las columnas para cada red" >netsize_all.txt
+echo "Melissa Punguil. Análisis de datos con bucle FOR" >> netsize_all.txt
+for f in $(ls *.txt)
 do 
-	head -n 1 $f | tr -d " " | tr -d "\n" | wc -c;
+	wc -l $f >> netsize_all.txt ; head -n1 $f | grep -o " " | wc -l >> netsize_all.txt ; 
 done
