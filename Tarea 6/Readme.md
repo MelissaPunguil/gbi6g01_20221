@@ -3,6 +3,9 @@
 ### Datos personales 
 
 -Melissa Punguil 
+- Edad: 21
+- Ciudad: Tena
+- Carrera: Ingeniería en Biotecnología 
 
 ### Detalles del equipo
 Nombre del dispositivo	DESKTOP-IAK9CAK
