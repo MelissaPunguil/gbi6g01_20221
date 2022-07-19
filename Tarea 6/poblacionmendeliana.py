@@ -1,3 +1,4 @@
+import scipy 
 def build_population(N, p):
     """La construccón de la población va de la siguiente manera:
     donde N representa el número de individuos, en este caso los pares de alelos y p significa número de ocurrencia o probalidad de de la
